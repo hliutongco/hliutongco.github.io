@@ -7,7 +7,7 @@ const Home = (props) => {
 
 
       <div>
-        <img src="./cat.png" alt="cat"/>
+        <img src="https://s3.us-east-2.amazonaws.com/misc-helen/cat.png" alt="cat"/>
         <ul>
           <li>This is Helen's personal website!</li>
           <li>In early 2018, she moved to New York to learn how to code.</li>

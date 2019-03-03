@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 const threeKings = (
   <div className="portfolio-cards">
-    <img src="./threekings.gif" alt="Demo for Three Kings"/>
+    <img src="https://s3.us-east-2.amazonaws.com/misc-helen/threekings.gif" alt="Demo for Three Kings"/>
     <div>
       <ul>
         <li><strong>Libraries</strong>: React, Redux</li>
