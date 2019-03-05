@@ -17,13 +17,12 @@ const App = (props) => {
         </header>
 
         <Switch>
-          <Fragment>
-            <Route exact path="/" render={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contact" render={Contact} />
-            <Route path="/skills" render={Skills} />
-          </Fragment>
+          <Route exact path="/" render={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/contact" render={Contact} />
+          <Route path="/skills" render={Skills} />
+          <Route component={Home} />
        </Switch>
 
         <footer>
