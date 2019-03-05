@@ -3,6 +3,7 @@ import Home from './Home'
 import About from './About'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
+import Skills from './Skills'
 import { Route, Link, NavLink, Switch } from "react-router-dom";
 
 const App = (props) => {
@@ -12,7 +13,7 @@ const App = (props) => {
           <Link to="/"><img src="./portfolio_icon.png" alt="logo"/><span>helen liutongco</span></Link>
           <NavLink activeClassName="activeLink" to="/about">About</NavLink>
           <NavLink activeClassName="activeLink" to="/portfolio">Portfolio</NavLink>
-          <NavLink activeClassName="activeLink" to="/contact">Contact</NavLink>
+          <NavLink activeClassName="activeLink" to="/skills">Skills</NavLink>
         </header>
 
         <Switch>
@@ -21,6 +22,7 @@ const App = (props) => {
             <Route path="/about" component={About} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" render={Contact} />
+            <Route path="/skills" render={Skills} />
           </Fragment>
        </Switch>
 
