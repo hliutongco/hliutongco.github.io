@@ -11,7 +11,7 @@ const Contact = (props) => {
           <p>Yes, finally, a real picture of Helen. Thanks for making it this far! Feel free to contact her using any of the following:</p>
           <p><a rel="noopener noreferrer" target="_blank" href="https://github.com/hliutongco">Github</a>
           • <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/liutongcoh/">LinkedIn</a>
-          • <a rel="noopener noreferrer" target="_blank" href="https://medium.com/@liutongcoh">Medium</a>
+          • <a rel="noopener noreferrer" target="_blank" href="https://dev.to/hliutongco">Dev.to</a>
           • <a href="mailto:liutongcoh@gmail.com">Email</a></p>
         </div>
       </div>
