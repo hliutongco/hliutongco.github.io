@@ -122,14 +122,14 @@ header {
   }
 
   img, span {
-    width: 1.1em;
+    width: 1.3em;
     position: absolute;
     top: 1vh; left: 1vw;
   }
 
   span {
     font-family: 'Pacifico', cursive;
-    font-size: 0.75em;
+    font-size: 1em;
     white-space: nowrap;
     margin-left: 1.8em;
   }
@@ -305,6 +305,17 @@ footer {
 
   footer {
     font-size: calc(0.5vw + 1vmin);
+  }
+
+  header {
+
+    img, span {
+      width: 1.1em;
+    }
+
+    span {
+      font-size: 0.75em;
+    }
   }
 }
 
