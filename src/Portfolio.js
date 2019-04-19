@@ -17,6 +17,23 @@ const threeKings = (
   </div>
 )
 
+const keyboardKaraoke = (
+  <div className="portfolio-cards">
+    <img src="https://s3.us-east-2.amazonaws.com/misc-helen/threekings.gif" alt="Demo for Keyboard Karaoke"/>
+    <div>
+      <ul>
+        <li><strong>Libraries</strong>: Node.js, Express</li>
+        <li><strong>Other Tools</strong>: Javascript, CSS, MongoDB</li>
+        <li><strong>Github Repo</strong>: <a rel="noopener noreferrer" target="_blank" href="https://github.com/hliutongco/keyboard-karaoke-frontend">Click here</a></li>
+        <li><strong>Live Demo</strong>: <a rel="noopener noreferrer" target="_blank" href="http://keyboard-karaoke.herokuapp.com">Click here</a></li>
+      </ul>
+      <p><strong>Keyboard Karaoke</strong> is a typing game where you type the lyrics to a song as the song plays.
+      This app uses a Javascript frontend and a simple Node.js/Express/MongoDB backend for video and audio streaming, as well as saving scores.
+      Features include a high scores table and a selection of five songs of varying difficulties.</p>
+    </div>
+  </div>
+)
+
 
 const Portfolio = (props) => {
   const [displayProject, changeProject] = useState(null)
@@ -30,7 +47,7 @@ const Portfolio = (props) => {
       case "threekings":
         return threeKings
       case "keyboardkaraoke":
-        return ""
+        return keyboardKaraoke
       case "statusquote":
         return ""
       default:
