@@ -38,7 +38,7 @@ const keyboardKaraoke = (
 
 const statusQuote = (
   <div className="portfolio-cards">
-    <img src="https://s3.us-east-2.amazonaws.com/misc-helen/threekings.gif" alt="Demo for Status Quote"/>
+    <img src="https://s3.us-east-2.amazonaws.com/misc-helen/status-quote-example.gif" alt="Demo for Status Quote"/>
     <div>
       <ul>
         <li><strong>Libraries</strong>: React, Redux, Node.js, Express</li>
